@@ -107,6 +107,7 @@ def count_sum_v(v, graph, feromon, a, b):
 
 
 def search_v(path):
+    """Выясняет какой вершины нет в пути"""
     list = [0, 1, 2, 3, 4, 5]
     for el in path:
         list.remove(el)
